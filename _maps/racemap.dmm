@@ -115,6 +115,15 @@
 	smooth = 0
 	},
 /area/space)
+"s" = (
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	name = "flaps";
+	opacity = 1;
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/space)
 "u" = (
 /obj/structure/fireaxecabinet,
 /turf/closed/indestructible/opshuttle,
@@ -128,11 +137,15 @@
 "x" = (
 /turf/closed/indestructible/opshuttle,
 /area/space)
-"y" = (
+"z" = (
+/obj/structure/chair/sofa/corner{
+	dir = 8
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"A" = (
 /obj/machinery/conveyor/auto{
 	dir = 1;
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "plasticflaps";
 	name = "flaps";
 	opacity = 1;
 	resistance_flags = 211
@@ -140,25 +153,21 @@
 /obj/effect/oneway{
 	dir = 1
 	},
-/turf/open/floor/bluespace,
-/area/space)
-"z" = (
-/obj/structure/chair/sofa/corner{
-	dir = 8
+/obj/effect{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plasticflaps";
+	name = "one-way flaps"
 	},
 /turf/open/floor/bluespace,
 /area/space)
 "F" = (
 /turf/closed/indestructible/opsglass,
 /area/space)
-"J" = (
-/obj/machinery/conveyor/auto{
-	dir = 1;
+"H" = (
+/obj/effect{
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "plasticflaps";
-	name = "flaps";
-	opacity = 1;
-	resistance_flags = 211
+	name = "one-way flaps"
 	},
 /turf/open/floor/bluespace,
 /area/space)
@@ -724,7 +733,7 @@ p
 p
 p
 p
-y
+A
 h
 h
 h
@@ -981,7 +990,7 @@ p
 p
 p
 p
-y
+A
 d
 O
 l
@@ -1238,7 +1247,7 @@ p
 p
 p
 p
-y
+A
 K
 K
 d
@@ -1495,7 +1504,7 @@ p
 p
 p
 p
-y
+A
 d
 O
 l
@@ -1752,7 +1761,7 @@ p
 p
 p
 p
-y
+A
 K
 K
 d
@@ -2009,7 +2018,7 @@ p
 p
 p
 p
-y
+A
 d
 O
 l
@@ -2266,7 +2275,7 @@ p
 p
 p
 p
-y
+A
 K
 K
 d
@@ -2523,7 +2532,7 @@ p
 p
 p
 p
-y
+A
 d
 O
 l
@@ -2780,7 +2789,7 @@ p
 p
 p
 p
-y
+A
 K
 K
 d
@@ -3037,7 +3046,7 @@ p
 p
 p
 p
-y
+A
 d
 O
 o
@@ -3294,7 +3303,7 @@ p
 p
 p
 p
-y
+A
 h
 h
 h
@@ -5093,9 +5102,9 @@ p
 p
 p
 x
-J
+s
 b
-m
+H
 n
 m
 m
@@ -5607,7 +5616,7 @@ p
 p
 p
 x
-y
+A
 m
 m
 m
