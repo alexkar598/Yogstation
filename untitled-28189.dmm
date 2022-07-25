@@ -1,50 +1,220 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/obj/effect/oneway{
+	dir = 1
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"c" = (
+/obj/structure/chair/sofa/corner,
+/turf/open/floor/bluespace,
+/area/space)
 "d" = (
-/obj/structure/window/plasma/reinforced,
-/obj/structure/window/plasma/reinforced{
-	dir = 4
+/obj/effect/turf_decal/loading_area{
+	dir = 1
 	},
 /turf/open/indestructible,
+/area/space)
+"e" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/food/drinks/bottle/champagne{
+	layer = 3.9;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	layer = 3.95
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"f" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	layer = 3.95
+	},
+/obj/item/reagent_containers/food/drinks/bottle/champagne{
+	layer = 3.9;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -6
+	},
+/turf/open/floor/bluespace,
 /area/space)
 "h" = (
 /turf/open/indestructible,
 /area/space)
+"j" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/bluespace,
+/area/space)
 "m" = (
-/obj/structure/window/plasma/reinforced{
-	dir = 8
+/turf/open/floor/bluespace,
+/area/space)
+"n" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("admin");
+	installation = /obj/item/gun/energy/laser/instakill
 	},
-/obj/structure/window/plasma/reinforced,
-/turf/open/indestructible,
+/turf/open/floor/bluespace,
 /area/space)
 "p" = (
 /turf/closed/indestructible/riveted/uranium{
 	smooth = 0
 	},
 /area/space)
-"O" = (
+"s" = (
 /obj/structure/window/plasma/reinforced{
-	dir = 8
+	dir = 8;
+	flags_1 = 131712;
+	resistance_flags = 211
 	},
-/turf/open/indestructible,
-/area/space)
-"Q" = (
 /obj/structure/window/plasma/reinforced{
-	dir = 4
+	flags_1 = 131712;
+	resistance_flags = 211
 	},
-/turf/open/indestructible,
-/area/space)
-"Z" = (
-/obj/effect/turf_decal/tile,
-/obj/effect/turf_decal/tile{
+/obj/structure/chair/office/dark{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/black{
-	dir = 8
+/obj/structure/window/plasma/reinforced{
+	dir = 4;
+	flags_1 = 131712;
+	resistance_flags = 211
 	},
-/obj/effect/turf_decal/tile/black{
-	dir = 4
+/obj/item/extinguisher{
+	layer = 2.99;
+	max_water = 1e+006
 	},
 /turf/open/indestructible,
+/area/space)
+"u" = (
+/obj/structure/fireaxecabinet,
+/turf/closed/indestructible/opshuttle,
+/area/space)
+"v" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 8;
+	flags_1 = 131712;
+	resistance_flags = 211
+	},
+/obj/structure/window/plasma/reinforced{
+	flags_1 = 131712;
+	resistance_flags = 211
+	},
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 4;
+	flags_1 = 131712;
+	resistance_flags = 211
+	},
+/obj/item/extinguisher{
+	layer = 2.99;
+	max_water = 1e+006
+	},
+/turf/open/indestructible,
+/area/space)
+"w" = (
+/obj/structure/chair/sofa{
+	dir = 8
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"x" = (
+/turf/closed/indestructible/opshuttle,
+/area/space)
+"y" = (
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plasticflaps";
+	name = "flaps";
+	opacity = 1;
+	resistance_flags = 211
+	},
+/obj/effect/oneway{
+	dir = 1
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"z" = (
+/obj/structure/chair/sofa/corner{
+	dir = 8
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"F" = (
+/turf/closed/indestructible/opsglass,
+/area/space)
+"J" = (
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plasticflaps";
+	name = "flaps";
+	opacity = 1;
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"K" = (
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/space)
+"O" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 8;
+	flags_1 = 131712;
+	resistance_flags = 211
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 4;
+	flags_1 = 131712;
+	resistance_flags = 211
+	},
+/obj/structure/window{
+	dir = 1;
+	flags_1 = 131712;
+	layer = 3.21;
+	resistance_flags = 211
+	},
+/obj/item/extinguisher{
+	max_water = 1e+006
+	},
+/turf/open/indestructible,
+/area/space)
+"P" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"U" = (
+/obj/structure/fireaxecabinet/bridge/spare{
+	req_access = null
+	},
+/turf/closed/indestructible/opshuttle,
+/area/space)
+"W" = (
+/turf/closed/indestructible/syndicate,
+/area/space)
+"X" = (
+/obj/structure/window{
+	dir = 1;
+	flags_1 = 131712;
+	layer = 3.21;
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"Z" = (
+/obj/machinery/readybutton,
+/turf/closed/indestructible/opshuttle,
 /area/space)
 
 (1,1,1) = {"
@@ -291,18 +461,18 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
 "}
 (2,1,1) = {"
 p
@@ -548,7 +718,7 @@ p
 p
 p
 p
-p
+y
 h
 h
 h
@@ -559,7 +729,7 @@ h
 h
 h
 h
-p
+W
 "}
 (3,1,1) = {"
 p
@@ -805,18 +975,18 @@ p
 p
 p
 p
-p
-h
+y
+d
 O
-m
+s
+K
+K
+K
+d
 O
-m
+s
 h
-h
-h
-h
-h
-p
+W
 "}
 (4,1,1) = {"
 p
@@ -1062,18 +1232,18 @@ p
 p
 p
 p
-p
-h
-Q
+y
+K
+K
 d
-Q
-d
+O
+s
 h
 h
 h
 h
 h
-p
+W
 "}
 (5,1,1) = {"
 p
@@ -1319,18 +1489,18 @@ p
 p
 p
 p
-p
-h
+y
+d
 O
-m
+s
+K
+d
+O
+s
 h
 h
 h
-h
-h
-h
-h
-p
+W
 "}
 (6,1,1) = {"
 p
@@ -1576,18 +1746,18 @@ p
 p
 p
 p
-p
-h
-Q
+y
+K
+K
 d
+O
+s
+K
+d
+O
+s
 h
-h
-h
-h
-h
-h
-h
-p
+W
 "}
 (7,1,1) = {"
 p
@@ -1833,18 +2003,18 @@ p
 p
 p
 p
-p
-h
+y
+d
 O
-m
+s
+K
+d
+O
+s
 h
 h
 h
-h
-h
-h
-h
-p
+W
 "}
 (8,1,1) = {"
 p
@@ -2090,18 +2260,18 @@ p
 p
 p
 p
-p
-h
-Q
+y
+K
+K
 d
+O
+s
+K
+d
+O
+s
 h
-h
-h
-h
-h
-h
-h
-p
+W
 "}
 (9,1,1) = {"
 p
@@ -2347,18 +2517,18 @@ p
 p
 p
 p
-p
-h
+y
+d
 O
-m
+s
+K
+d
+O
+s
 h
 h
 h
-h
-h
-h
-h
-p
+W
 "}
 (10,1,1) = {"
 p
@@ -2604,18 +2774,18 @@ p
 p
 p
 p
-p
-h
-Q
+y
+K
+K
 d
+O
+v
 h
 h
 h
 h
 h
-h
-h
-p
+W
 "}
 (11,1,1) = {"
 p
@@ -2861,18 +3031,18 @@ p
 p
 p
 p
-p
-Z
-Z
-Z
-Z
-Z
-Z
-Z
-Z
-Z
-Z
-p
+y
+d
+O
+v
+K
+K
+K
+d
+O
+s
+h
+W
 "}
 (12,1,1) = {"
 p
@@ -3118,18 +3288,18 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+y
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+W
 "}
 (13,1,1) = {"
 p
@@ -3375,18 +3545,18 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+W
+F
+F
+F
+F
+F
+F
+F
+F
+F
+F
+W
 "}
 (14,1,1) = {"
 p
@@ -3632,18 +3802,18 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+Z
+X
+m
+j
+f
+P
+m
+j
+e
+P
+m
+x
 "}
 (15,1,1) = {"
 p
@@ -3889,18 +4059,18 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+u
+m
+m
+c
+w
+z
+m
+c
+w
+z
+m
+x
 "}
 (16,1,1) = {"
 p
@@ -4145,19 +4315,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+U
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (17,1,1) = {"
 p
@@ -4402,19 +4572,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (18,1,1) = {"
 p
@@ -4659,19 +4829,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
 "}
 (19,1,1) = {"
 p
@@ -4916,19 +5086,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+J
+b
+m
+n
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (20,1,1) = {"
 p
@@ -5173,19 +5343,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (21,1,1) = {"
 p
@@ -5430,19 +5600,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+y
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (22,1,1) = {"
 p
@@ -5687,19 +5857,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (23,1,1) = {"
 p
@@ -5944,19 +6114,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (24,1,1) = {"
 p
@@ -6201,19 +6371,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (25,1,1) = {"
 p
@@ -6458,19 +6628,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (26,1,1) = {"
 p
@@ -6715,19 +6885,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (27,1,1) = {"
 p
@@ -6972,19 +7142,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (28,1,1) = {"
 p
@@ -7229,19 +7399,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+m
+x
 "}
 (29,1,1) = {"
 p
@@ -7486,19 +7656,19 @@ p
 p
 p
 p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
 "}
 (30,1,1) = {"
 p
