@@ -50,22 +50,7 @@
 /obj/structure/chair/sofa/right,
 /turf/open/floor/bluespace,
 /area/space)
-"m" = (
-/turf/open/floor/bluespace,
-/area/space)
-"n" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("admin");
-	installation = /obj/item/gun/energy/laser/instakill
-	},
-/turf/open/floor/bluespace,
-/area/space)
-"p" = (
-/turf/closed/indestructible/riveted/uranium{
-	smooth = 0
-	},
-/area/space)
-"s" = (
+"l" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8;
 	flags_1 = 131712;
@@ -87,13 +72,20 @@
 	layer = 2.99;
 	max_water = 1e+006
 	},
+/obj/effect/landmark/start,
 /turf/open/indestructible,
 /area/space)
-"u" = (
-/obj/structure/fireaxecabinet,
-/turf/closed/indestructible/opshuttle,
+"m" = (
+/turf/open/floor/bluespace,
 /area/space)
-"v" = (
+"n" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("admin");
+	installation = /obj/item/gun/energy/laser/instakill
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"o" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8;
 	flags_1 = 131712;
@@ -115,7 +107,17 @@
 	layer = 2.99;
 	max_water = 1e+006
 	},
+/obj/effect/landmark/start,
 /turf/open/indestructible,
+/area/space)
+"p" = (
+/turf/closed/indestructible/riveted/uranium{
+	smooth = 0
+	},
+/area/space)
+"u" = (
+/obj/structure/fireaxecabinet,
+/turf/closed/indestructible/opshuttle,
 /area/space)
 "w" = (
 /obj/structure/chair/sofa{
@@ -210,6 +212,10 @@
 	layer = 3.21;
 	resistance_flags = 211
 	},
+/turf/open/floor/bluespace,
+/area/space)
+"Y" = (
+/obj/effect/landmark/observer_start,
 /turf/open/floor/bluespace,
 /area/space)
 "Z" = (
@@ -978,13 +984,13 @@ p
 y
 d
 O
-s
+l
 K
 K
 K
 d
 O
-s
+l
 h
 W
 "}
@@ -1237,7 +1243,7 @@ K
 K
 d
 O
-s
+l
 h
 h
 h
@@ -1492,11 +1498,11 @@ p
 y
 d
 O
-s
+l
 K
 d
 O
-s
+l
 h
 h
 h
@@ -1751,11 +1757,11 @@ K
 K
 d
 O
-s
+l
 K
 d
 O
-s
+l
 h
 W
 "}
@@ -2006,11 +2012,11 @@ p
 y
 d
 O
-s
+l
 K
 d
 O
-s
+l
 h
 h
 h
@@ -2265,11 +2271,11 @@ K
 K
 d
 O
-s
+l
 K
 d
 O
-s
+l
 h
 W
 "}
@@ -2520,11 +2526,11 @@ p
 y
 d
 O
-s
+l
 K
 d
 O
-s
+l
 h
 h
 h
@@ -2779,7 +2785,7 @@ K
 K
 d
 O
-v
+o
 h
 h
 h
@@ -3034,13 +3040,13 @@ p
 y
 d
 O
-v
+o
 K
 K
 K
 d
 O
-s
+l
 h
 W
 "}
@@ -3808,7 +3814,7 @@ m
 j
 f
 P
-m
+Y
 j
 e
 P
