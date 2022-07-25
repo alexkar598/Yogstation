@@ -1,4 +1,29 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"ae" = (
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/indestructible/grass/beach/coast_t,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
 "am" = (
 /turf/open/floor/bluespace,
 /area/space)
@@ -14,37 +39,10 @@
 	smooth = 0
 	},
 /area/space)
-"aL" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"aP" = (
-/turf/open/indestructible/grass/beach/coast_b{
-	dir = 6
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"aQ" = (
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/grass,
+"aI" = (
+/obj/effect/overlay/palmtree_r,
+/mob/living/simple_animal/crab,
+/turf/open/indestructible/grass/beach,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
@@ -52,12 +50,12 @@
 	requires_power = 0
 	})
 "aV" = (
-/obj/structure/flora/tree/jungle/small,
+/obj/structure/flora/rock/pile,
 /obj/structure/barricade/security{
 	invisibility = 101;
 	resistance_flags = 211
 	},
-/turf/open/indestructible/grass,
+/turf/open/indestructible/grass/beach,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
@@ -67,346 +65,17 @@
 "aW" = (
 /turf/closed/indestructible/syndicate,
 /area/space)
-"aX" = (
-/obj/machinery/abductor/pad,
-/turf/open/floor/mineral/abductor,
+"bk" = (
+/turf/open/floor/mineral/titanium/yellow,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"aZ" = (
-/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
-/turf/open/indestructible/grass/beach/coast_b{
-	dir = 10
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"bG" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"bT" = (
-/turf/open/floor/bluespace,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"cn" = (
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"cp" = (
-/obj/machinery/computer/arcade/battle{
-	dir = 8
-	},
-/turf/open/floor/circuit,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"cu" = (
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/abductor,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"cK" = (
-/turf/open/indestructible/grass/beach/coast_b,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"cM" = (
-/obj/structure/chair/sofa/corner{
-	dir = 8
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"du" = (
-/turf/open/floor/mineral/plastitanium/red,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"dQ" = (
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/item/trash/candy,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"el" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/item/trash/cheesie,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"ez" = (
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"eG" = (
-/obj/structure/window/reinforced{
-	dir = 8;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	resistance_flags = 211
-	},
-/turf/open/space/basic,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"eV" = (
-/obj/effect/oneway{
-	dir = 1
-	},
-/obj/effect{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "plasticflaps";
-	name = "one-way flaps"
-	},
-/obj/machinery/conveyor/auto{
-	dir = 1;
-	invisibility = 101;
-	name = "flaps";
-	opacity = 1;
-	resistance_flags = 211
-	},
-/turf/open/floor/bluespace,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"fu" = (
-/turf/open/floor/mineral/titanium/white,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"fK" = (
-/obj/effect{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "plasticflaps";
-	name = "one-way flaps"
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"fP" = (
-/obj/structure/cursed_slot_machine,
-/turf/open/floor/circuit/green,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"fS" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/item/trash/candy,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"ge" = (
-/turf/closed/indestructible/opsglass,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"gt" = (
-/turf/open/indestructible,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"gu" = (
-/obj/structure/chair/sofa/right,
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"gA" = (
-/obj/effect/turf_decal/trimline/red/filled/arrow_cw{
-	dir = 8
-	},
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"gG" = (
-/obj/machinery/computer/arcade/battle,
-/turf/open/floor/circuit,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"hs" = (
-/turf/open/indestructible/grass/beach/coast_t{
-	dir = 5
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"hY" = (
-/turf/open/floor/mineral/titanium/purple,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"il" = (
-/obj/machinery/computer/arcade/battle{
-	dir = 1
-	},
-/turf/open/floor/circuit,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"iq" = (
-/obj/structure/flora/rock,
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"iy" = (
-/obj/structure/flora/tree/palm,
-/mob/living/simple_animal/crab,
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"iD" = (
-/obj/structure/holosign/barrier/wetsign,
-/turf/open/indestructible/grass,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"iQ" = (
-/obj/structure/chair{
-	dir = 1;
-	flags_1 = 128;
-	mouse_opacity = 0
-	},
+"bu" = (
 /obj/item/cardboard_cutout{
-	icon_state = "cutout_ntsec"
+	icon_state = "cutout_greytide"
 	},
 /obj/structure/window/reinforced/clockwork{
 	dir = 8;
@@ -431,6 +100,7 @@
 	can_buckle = 0;
 	dir = 1;
 	flags_1 = 128;
+	layer = 2.99;
 	max_buckled_mobs = 0;
 	mouse_opacity = 0
 	},
@@ -441,17 +111,22 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"jd" = (
-/obj/machinery/jukebox/disco/indestructible,
-/turf/open/indestructible/grass/beach/water,
+"bv" = (
+/turf/open/indestructible/grass/beach/coast_b{
+	dir = 9
+	},
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"jt" = (
-/mob/living/simple_animal/crab,
+"bA" = (
+/obj/structure/flora/tree/palm,
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
 /turf/open/indestructible/grass/beach,
 /area/chapel{
 	dynamic_lighting = 0;
@@ -459,23 +134,52 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"jN" = (
-/turf/open/floor/mineral/abductor,
+"bC" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/item/trash/popcorn,
+/turf/open/floor/eighties,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"jU" = (
-/turf/closed/wall/mineral/titanium,
+"bX" = (
+/turf/open/floor/plating/abductor2{
+	icon_plating = "alienplating"
+	},
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"kh" = (
+"ct" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/grass/jungle,
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"cQ" = (
+/obj/machinery/computer/arcade/battle{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"cR" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 1
 	},
@@ -486,9 +190,67 @@
 	name = "Start";
 	requires_power = 0
 	})
-"ks" = (
+"cV" = (
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/item/trash/candy,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"du" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"dx" = (
+/turf/open/floor/mineral/titanium/purple,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"dY" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"ei" = (
+/obj/structure/holosign/barrier/wetsign,
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"es" = (
 /obj/machinery/computer/arcade/battle{
-	dir = 4
+	dir = 8
 	},
 /turf/open/floor/circuit,
 /area/chapel{
@@ -497,66 +259,63 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"kH" = (
-/obj/item/cardboard_cutout{
-	icon_state = "cutout_wizard"
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/chair/comfy/shuttle{
-	can_buckle = 0;
-	dir = 1;
-	flags_1 = 128;
-	max_buckled_mobs = 0;
-	mouse_opacity = 0
-	},
-/turf/open/floor/mineral/titanium/blue,
+"ex" = (
+/obj/item/trash/candy,
+/turf/open/floor/eighties,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"mt" = (
+"eB" = (
+/turf/open/indestructible/grass/beach/coast_b{
+	dir = 5
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"fd" = (
+/obj/structure/closet/crate/bin,
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"fo" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8;
 	flags_1 = 131712;
 	resistance_flags = 211
 	},
 /obj/structure/window/plasma/reinforced{
-	flags_1 = 131712;
-	resistance_flags = 211
-	},
-/obj/structure/chair/office/light{
-	dir = 1
-	},
-/obj/structure/window/plasma/reinforced{
 	dir = 4;
 	flags_1 = 131712;
 	resistance_flags = 211
 	},
+/obj/structure/window{
+	dir = 1;
+	flags_1 = 131712;
+	layer = 3.21;
+	resistance_flags = 211
+	},
 /obj/item/extinguisher{
-	layer = 2.99;
 	max_water = 1e+006
 	},
-/obj/effect/landmark/start,
 /turf/open/indestructible,
 /area/bridge{
 	dynamic_lighting = 0;
@@ -564,7 +323,20 @@
 	name = "Start";
 	requires_power = 0
 	})
-"my" = (
+"fI" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"fK" = (
 /obj/item/trash/popcorn,
 /turf/open/floor/mineral/abductor,
 /area/chapel{
@@ -573,59 +345,24 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"mD" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/chair/comfy/shuttle{
-	can_buckle = 0;
-	dir = 1;
-	flags_1 = 128;
-	max_buckled_mobs = 0;
-	mouse_opacity = 0
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"mF" = (
-/obj/machinery/vending/wallmed,
-/turf/closed/wall/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"nC" = (
-/mob/living/simple_animal/crab,
-/obj/item/reagent_containers/food/drinks/beer,
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"nM" = (
-/turf/open/floor/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"nN" = (
-/obj/effect/overlay/palmtree_r,
+"fW" = (
 /obj/structure/barricade/security{
 	invisibility = 101;
 	resistance_flags = 211
 	},
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 8;
+	icon_state = "sandwater_inner"
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"ga" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/grass/jungle/b,
 /turf/open/indestructible/grass/beach,
 /area/chapel{
 	dynamic_lighting = 0;
@@ -633,7 +370,20 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"oL" = (
+"gx" = (
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/item/trash/raisins,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"gT" = (
 /turf/open/indestructible/grass/beach/coast_t{
 	dir = 4;
 	icon_state = "sandwater_inner"
@@ -644,9 +394,38 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"oU" = (
+"hb" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	resistance_flags = 211
+	},
+/turf/open/space/basic,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"ix" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/abductor,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"iY" = (
 /obj/effect/decal/cleanable/crayon{
-	icon_state = "d"
+	icon_state = "e"
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/chapel{
@@ -655,41 +434,12 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"pv" = (
-/obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/plating,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"pL" = (
-/obj/machinery/computer/arcade/battle{
-	dir = 4
-	},
-/turf/open/floor/circuit/green,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"qk" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
+"jD" = (
 /obj/structure/chair/comfy/shuttle{
 	can_buckle = 0;
 	dir = 1;
 	flags_1 = 128;
+	layer = 2.99;
 	max_buckled_mobs = 0;
 	mouse_opacity = 0
 	},
@@ -700,122 +450,7 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"qp" = (
-/obj/item/trash/semki,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"qL" = (
-/obj/structure/table/reinforced,
-/obj/machinery/paystand/register,
-/obj/machinery/door/window/brigdoor,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"qO" = (
-/turf/closed/indestructible/syndicate,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"qS" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/abductor,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"qZ" = (
-/obj/effect/turf_decal/arrows{
-	dir = 1
-	},
-/turf/open/indestructible,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"rh" = (
-/obj/effect/oneway{
-	dir = 1
-	},
-/obj/effect{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "plasticflaps";
-	name = "one-way flaps"
-	},
-/obj/machinery/conveyor/auto{
-	dir = 1;
-	invisibility = 101;
-	name = "flaps";
-	opacity = 1;
-	resistance_flags = 211
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"rA" = (
-/obj/effect/decal/cleanable/crayon{
-	icon_state = "g"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"rB" = (
-/turf/closed/indestructible/opsglass,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"rC" = (
-/obj/structure/window/shuttle,
-/turf/open/floor/plating,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"si" = (
-/obj/machinery/abductor/pad{
-	density = 1;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/abductor,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"sz" = (
+"jO" = (
 /obj/structure/chair{
 	dir = 1;
 	flags_1 = 128;
@@ -847,6 +482,7 @@
 	can_buckle = 0;
 	dir = 1;
 	flags_1 = 128;
+	layer = 2.99;
 	max_buckled_mobs = 0;
 	mouse_opacity = 0
 	},
@@ -857,689 +493,7 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"sA" = (
-/obj/item/trash/candy,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"sH" = (
-/obj/item/trash/raisins,
-/obj/item/trash/tray,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"sN" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"sQ" = (
-/obj/machinery/computer/arcade/battle{
-	dir = 1
-	},
-/turf/open/floor/circuit/green,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"sS" = (
-/obj/structure/barricade/security{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/indestructible/grass/beach/coast_t,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"sU" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/structure/flora/grass/jungle/b,
-/turf/open/indestructible/grass,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"tb" = (
-/obj/structure/chair/sofa{
-	dir = 8
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"tc" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"td" = (
-/obj/structure/chair/sofa/right{
-	dir = 1
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"tz" = (
-/obj/item/trash/raisins,
-/obj/item/trash/raisins,
-/obj/item/trash/popcorn,
-/obj/item/trash/toritose,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"tB" = (
-/obj/machinery/vending/toyliberationstation,
-/turf/open/floor/circuit,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"tZ" = (
-/obj/structure/fireaxecabinet/bridge/spare{
-	req_access = null
-	},
-/turf/closed/indestructible/syndicate,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"ub" = (
-/obj/effect/landmark/observer_start,
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"uf" = (
-/obj/structure/barricade/security{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"ui" = (
-/obj/machinery/computer/arcade/battle{
-	dir = 8
-	},
-/turf/open/floor/circuit/green,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"uP" = (
-/obj/structure/barricade/security,
-/turf/open/floor/bluespace,
-/area/space)
-"vh" = (
-/turf/open/indestructible/grass/beach/coast_b{
-	dir = 1
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"vB" = (
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/bluespace,
-/area/space)
-"vM" = (
-/obj/effect/decal/cleanable/crayon{
-	icon_state = "e"
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"wm" = (
-/obj/machinery/computer/arcade/battle,
-/turf/open/floor/circuit/green,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"wv" = (
-/obj/structure/flora/tree/jungle,
-/obj/structure/barricade/security{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/indestructible/grass,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"wN" = (
-/obj/structure/cursed_slot_machine,
-/turf/open/floor/circuit/red,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"xt" = (
-/obj/effect/decal/cleanable/crayon{
-	icon_state = "e"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"xA" = (
-/obj/structure/table/reinforced,
-/obj/structure/window/reinforced{
-	resistance_flags = 211
-	},
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"yk" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"yQ" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	resistance_flags = 211
-	},
-/turf/open/space/basic,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"zu" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/item/trash/popcorn,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"zz" = (
-/obj/structure/cursed_slot_machine,
-/turf/open/floor/circuit,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"zE" = (
-/obj/structure/closet/crate/bin,
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"zK" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/grass/jungle/b,
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Am" = (
-/obj/structure/table/reinforced,
-/obj/machinery/chem_dispenser/drinks/beer{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	resistance_flags = 211
-	},
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Ap" = (
-/obj/structure/window/reinforced{
-	dir = 8;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	resistance_flags = 211
-	},
-/turf/open/floor/fakespace,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Av" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/structure/flora/grass/jungle/b,
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Bn" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -6
-	},
-/obj/item/reagent_containers/food/drinks/bottle/champagne{
-	layer = 3.9;
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	layer = 3.95
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"Br" = (
-/mob/living/simple_animal/crab,
-/turf/open/indestructible/grass/beach/coast_t{
-	dir = 4
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Bz" = (
-/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
-/turf/open/indestructible/grass/beach/coast_t{
-	dir = 1;
-	icon_state = "sandwater_inner"
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"BK" = (
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/item/trash/raisins,
-/obj/item/trash/candy,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"BT" = (
-/obj/structure/fireaxecabinet,
-/turf/closed/indestructible/syndicate,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"Cd" = (
-/turf/open/indestructible/grass/beach/coast_t{
-	dir = 1
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Ck" = (
-/turf/open/indestructible/grass/beach/coast_b{
-	dir = 9
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Ct" = (
-/obj/structure/barricade/security{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/indestructible/grass/beach/coast_t{
-	icon_state = "sandwater_inner"
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"CC" = (
-/obj/item/trash/raisins,
-/obj/item/trash/topkakes,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Dh" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	layer = 3.95
-	},
-/obj/item/reagent_containers/food/drinks/bottle/champagne{
-	layer = 3.9;
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -6
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"DK" = (
-/turf/open/floor/plating/abductor2{
-	icon_plating = "alienplating"
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"DU" = (
-/obj/item/cardboard_cutout{
-	icon_state = "cutout_greytide"
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/chair/comfy/shuttle{
-	can_buckle = 0;
-	dir = 1;
-	flags_1 = 128;
-	max_buckled_mobs = 0;
-	mouse_opacity = 0
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Eg" = (
-/obj/effect/decal/cleanable/crayon{
-	icon_state = "c"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Em" = (
-/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
-/turf/open/indestructible/grass/beach/coast_t{
-	dir = 8
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"ET" = (
-/obj/structure/table/reinforced,
-/obj/structure/table/reinforced,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/regular{
-	pixel_x = 2;
-	pixel_y = 3
-	},
-/obj/item/crowbar,
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"EY" = (
-/obj/structure/flora/grass/jungle/b,
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Fy" = (
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/item/trash/raisins,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"FQ" = (
-/obj/structure/window/reinforced{
-	dir = 4;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	resistance_flags = 211
-	},
-/turf/open/space/basic,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Gv" = (
-/obj/effect/decal/cleanable/crayon{
-	icon_state = "m"
-	},
-/turf/open/floor/mineral/titanium/white,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Gx" = (
-/obj/structure/rack,
-/obj/item/twohanded/binoculars,
-/turf/open/floor/bluespace,
-/area/space)
-"GC" = (
-/mob/living/simple_animal/crab,
-/turf/open/indestructible/grass/beach/coast_t{
-	dir = 1;
-	icon_state = "sandwater_inner"
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Ha" = (
-/obj/structure/closet/crate/bin,
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Hb" = (
+"ki" = (
 /obj/structure/window/reinforced{
 	dir = 8;
 	resistance_flags = 211
@@ -1551,175 +505,7 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"Hg" = (
-/obj/item/trash/chips,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Hv" = (
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/item/trash/cheesie,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"HY" = (
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/item/trash/popcorn,
-/obj/item/trash/topkakes,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Ir" = (
-/obj/item/cardboard_cutout{
-	icon_state = "cutout_mime"
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 8;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 1;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced/clockwork{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/obj/structure/chair/comfy/shuttle{
-	can_buckle = 0;
-	dir = 1;
-	flags_1 = 128;
-	max_buckled_mobs = 0;
-	mouse_opacity = 0
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Iw" = (
-/obj/structure/window/reinforced{
-	dir = 4;
-	resistance_flags = 211
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	resistance_flags = 211
-	},
-/turf/open/floor/fakespace,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"IE" = (
-/obj/item/trash/cheesie,
-/turf/open/floor/plating/abductor2{
-	icon_plating = "alienplating"
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Jo" = (
-/obj/structure/flora/grass/jungle/b,
-/turf/open/indestructible/grass,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Jy" = (
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"JJ" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"JU" = (
-/obj/structure/flora/grass/jungle,
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/grass,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"KR" = (
-/obj/effect/decal/cleanable/crayon{
-	icon_state = "n"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"La" = (
-/obj/item/trash/raisins,
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Ll" = (
-/turf/open/floor/mineral/titanium/yellow,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Ln" = (
+"kv" = (
 /obj/machinery/conveyor/auto{
 	dir = 1;
 	invisibility = 101;
@@ -1734,8 +520,52 @@
 	name = "Start";
 	requires_power = 0
 	})
-"Lr" = (
-/obj/structure/barricade/security{
+"kz" = (
+/obj/effect/oneway{
+	dir = 1
+	},
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"le" = (
+/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
+/turf/open/indestructible/grass/beach/coast_b{
+	dir = 10
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"lp" = (
+/obj/item/trash/raisins,
+/obj/item/trash/topkakes,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"lu" = (
+/obj/machinery/computer/arcade/battle{
+	dir = 4
+	},
+/turf/open/floor/circuit,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"lC" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
 	invisibility = 101;
 	resistance_flags = 211
 	},
@@ -1746,9 +576,259 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"LX" = (
+"lN" = (
+/obj/structure/flora/tree/jungle,
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"ma" = (
+/obj/machinery/computer/arcade/battle,
+/turf/open/floor/circuit/green,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"md" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	resistance_flags = 211
+	},
+/turf/open/floor/fakespace,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"nm" = (
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"nu" = (
+/obj/effect/oneway{
+	dir = 1
+	},
+/obj/effect{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plasticflaps";
+	name = "one-way flaps"
+	},
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	invisibility = 101;
+	name = "flaps";
+	opacity = 1;
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"nA" = (
+/turf/open/indestructible/grass/beach/coast_b{
+	dir = 8
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"nF" = (
+/obj/machinery/vending/wallmed,
+/turf/closed/wall/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"nK" = (
+/turf/closed/indestructible/syndicate,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"oz" = (
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"oM" = (
+/obj/item/trash/raisins,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"pd" = (
+/obj/machinery/computer/arcade/battle,
+/turf/open/floor/circuit,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"pm" = (
+/obj/structure/flora/tree/palm,
+/mob/living/simple_animal/crab,
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"pH" = (
+/obj/item/trash/chips,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"pM" = (
 /obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/item/trash/cheesie,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"pR" = (
+/obj/item/trash/raisins,
+/obj/item/trash/raisins,
+/obj/item/trash/popcorn,
+/obj/item/trash/topkakes,
+/obj/item/trash/tray,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"pX" = (
+/obj/effect/turf_decal/trimline/red/filled/arrow_ccw{
+	dir = 4
+	},
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"qo" = (
+/obj/structure/flora/tree/jungle/small,
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"qR" = (
+/obj/structure/window/reinforced{
 	dir = 8;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	resistance_flags = 211
+	},
+/turf/open/space/basic,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"qU" = (
+/obj/structure/fireaxecabinet,
+/turf/closed/indestructible/syndicate,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"qW" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/plating,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"rg" = (
+/obj/structure/window/reinforced{
+	dir = 8;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	resistance_flags = 211
+	},
+/turf/open/floor/fakespace,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"rs" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
 	invisibility = 101;
 	resistance_flags = 211
 	},
@@ -1759,11 +839,190 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"Ms" = (
-/obj/structure/window{
+"ry" = (
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 1
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"rR" = (
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/abductor,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"sV" = (
+/turf/closed/indestructible/syndicate,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"to" = (
+/turf/open/indestructible/grass/beach/coast_b{
+	dir = 10
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"tP" = (
+/obj/structure/table/reinforced,
+/obj/machinery/paystand/register,
+/obj/machinery/door/window/brigdoor,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"uc" = (
+/obj/structure/flora/grass/jungle,
+/obj/structure/flora/grass/jungle,
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"ud" = (
+/turf/closed/wall/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"up" = (
+/obj/item/cardboard_cutout{
+	icon_state = "cutout_wizard"
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
 	dir = 1;
-	flags_1 = 131712;
-	layer = 3.21
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/chair/comfy/shuttle{
+	can_buckle = 0;
+	dir = 1;
+	flags_1 = 128;
+	layer = 2.99;
+	max_buckled_mobs = 0;
+	mouse_opacity = 0
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"ut" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"ux" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "d"
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"vf" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"vB" = (
+/turf/open/indestructible/grass/beach/water,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"vM" = (
+/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 8
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"we" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/chair/comfy/shuttle{
+	can_buckle = 0;
+	dir = 1;
+	flags_1 = 128;
+	layer = 2.99;
+	max_buckled_mobs = 0;
+	mouse_opacity = 0
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"wp" = (
+/obj/structure/rack,
+/obj/item/twohanded/binoculars,
+/turf/open/floor/bluespace,
+/area/space)
+"ww" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
 	},
 /turf/open/floor/bluespace,
 /area/bridge{
@@ -1772,7 +1031,306 @@
 	name = "Start";
 	requires_power = 0
 	})
-"My" = (
+"wC" = (
+/turf/open/indestructible/grass/beach/coast_b{
+	dir = 6
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"wX" = (
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 5
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"xz" = (
+/turf/closed/wall/mineral/abductor,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"xL" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"yu" = (
+/turf/open/floor/mineral/titanium/white,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"yy" = (
+/obj/item/trash/candy,
+/turf/open/floor/mineral/abductor,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"yZ" = (
+/obj/structure/shuttle/engine/propulsion{
+	icon_state = "propulsion"
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	resistance_flags = 211
+	},
+/turf/open/floor/fakespace,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"za" = (
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/item/trash/raisins,
+/obj/item/trash/candy,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"zB" = (
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"zG" = (
+/obj/structure/cursed_slot_machine,
+/turf/open/floor/circuit,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"zH" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Ab" = (
+/obj/structure/table/reinforced,
+/obj/machinery/paystand/register,
+/obj/machinery/door/window/brigdoor/eastright{
+	dir = 2
+	},
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Af" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "c"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Ah" = (
+/turf/open/indestructible/grass/beach/coast_b,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Ap" = (
+/obj/item/cardboard_cutout{
+	icon_state = "cutout_ntsec"
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/chair/comfy/shuttle{
+	can_buckle = 0;
+	dir = 1;
+	flags_1 = 128;
+	layer = 2.99;
+	max_buckled_mobs = 0;
+	mouse_opacity = 0
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Aq" = (
+/obj/item/trash/raisins,
+/obj/item/trash/raisins,
+/obj/item/trash/popcorn,
+/obj/item/trash/toritose,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"AC" = (
+/obj/item/wallframe/extinguisher_cabinet,
+/turf/closed/wall/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"AR" = (
+/obj/structure/fireaxecabinet/bridge/spare{
+	req_access = null
+	},
+/turf/closed/indestructible/syndicate,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"AS" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Be" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "s"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Bm" = (
+/turf/open/floor/mineral/abductor,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Bu" = (
+/obj/structure/table/reinforced,
+/obj/structure/table/reinforced,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/regular{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/item/crowbar,
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Ck" = (
+/obj/machinery/readybutton,
+/turf/closed/indestructible/syndicate,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"Cr" = (
+/mob/living/simple_animal/crab,
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Cx" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/regular{
@@ -1792,58 +1350,9 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"MT" = (
-/obj/effect/turf_decal/trimline/red/filled/arrow_ccw{
-	dir = 4
-	},
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Nl" = (
-/obj/structure/window/reinforced/clockwork{
-	dir = 4;
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/floor/mineral/abductor,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"ND" = (
-/obj/structure/flora/tree/palm,
-/obj/structure/barricade/security{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"NI" = (
-/obj/structure/flora/rock/pile,
-/obj/structure/barricade/security{
-	invisibility = 101;
-	resistance_flags = 211
-	},
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"NZ" = (
-/obj/item/trash/popcorn,
+"CF" = (
+/obj/item/trash/raisins,
+/obj/item/trash/tray,
 /turf/open/floor/eighties,
 /area/chapel{
 	dynamic_lighting = 0;
@@ -1851,17 +1360,20 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"OH" = (
-/turf/closed/wall/mineral/abductor,
+"CI" = (
+/obj/structure/window/shuttle,
+/turf/open/floor/plating,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"OP" = (
-/turf/open/indestructible/grass/beach/coast_b{
-	dir = 5
+"CT" = (
+/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 1;
+	icon_state = "sandwater_inner"
 	},
 /area/chapel{
 	dynamic_lighting = 0;
@@ -1869,18 +1381,16 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"OU" = (
-/obj/machinery/vending/toyliberationstation,
-/turf/open/floor/circuit/green,
-/area/chapel{
+"Db" = (
+/turf/open/indestructible,
+/area/bridge{
 	dynamic_lighting = 0;
 	has_gravity = 1;
-	name = "Main Course";
+	name = "Start";
 	requires_power = 0
 	})
-"OW" = (
-/obj/item/reagent_containers/food/drinks/beer,
-/turf/open/indestructible/grass/beach/coast_t{
+"Do" = (
+/turf/open/indestructible/grass/beach/coast_b{
 	dir = 1
 	},
 /area/chapel{
@@ -1889,9 +1399,46 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"OZ" = (
+"Dx" = (
+/obj/structure/flora/grass/jungle,
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"DH" = (
+/obj/structure/flora/rock,
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"DI" = (
+/turf/open/space/basic,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Eb" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "e"
+	},
+/turf/open/floor/mineral/titanium/yellow,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Eo" = (
 /obj/structure/table/reinforced,
-/obj/machinery/chem_dispenser/drinks/fullupgrade{
+/obj/machinery/chem_dispenser/drinks/beer{
 	dir = 1
 	},
 /obj/structure/window/reinforced{
@@ -1904,36 +1451,13 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"Pk" = (
+"EM" = (
 /obj/structure/window/reinforced/clockwork{
-	dir = 8;
+	dir = 4;
 	invisibility = 101;
 	resistance_flags = 211
 	},
-/turf/open/floor/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Pp" = (
-/obj/effect/decal/cleanable/crayon{
-	icon_state = "s"
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Pq" = (
-/obj/item/trash/raisins,
-/obj/item/trash/raisins,
-/obj/item/trash/popcorn,
-/obj/item/trash/topkakes,
-/obj/item/trash/tray,
+/obj/item/trash/cheesie,
 /turf/open/floor/eighties,
 /area/chapel{
 	dynamic_lighting = 0;
@@ -1941,73 +1465,71 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"Px" = (
-/obj/structure/barricade/security{
+"EO" = (
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Fd" = (
+/turf/open/floor/fakespace,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"FI" = (
+/obj/item/trash/raisins,
+/obj/item/trash/raisins,
+/obj/item/trash/energybar,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"FO" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/food/drinks/bottle/champagne{
+	layer = 3.9;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	layer = 3.95
+	},
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"Gi" = (
+/obj/structure/window/reinforced/clockwork{
 	invisibility = 101;
 	resistance_flags = 211
 	},
-/turf/open/indestructible/grass/beach/coast_t{
-	dir = 8;
-	icon_state = "sandwater_inner"
-	},
+/obj/item/trash/popcorn,
+/obj/item/trash/topkakes,
+/turf/open/floor/eighties,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"PH" = (
-/turf/open/indestructible/grass/beach/coast_b{
-	dir = 8
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"PI" = (
-/obj/effect/overlay/palmtree_r,
-/mob/living/simple_animal/crab,
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"PX" = (
-/turf/open/indestructible/grass/beach/water,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Qp" = (
-/obj/item/wallframe/extinguisher_cabinet,
-/turf/closed/wall/mineral/titanium,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Rt" = (
-/obj/structure/flora/rock,
-/obj/structure/barricade/security{
-	invisibility = 101;
+"Gj" = (
+/obj/machinery/abductor/pad{
+	density = 1;
 	resistance_flags = 211
 	},
-/turf/open/indestructible/grass/beach,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Rw" = (
-/obj/item/trash/candy,
 /turf/open/floor/mineral/abductor,
 /area/chapel{
 	dynamic_lighting = 0;
@@ -2015,17 +1537,8 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"SX" = (
-/turf/closed/indestructible/syndicate,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Th" = (
-/obj/item/trash/raisins,
-/obj/item/trash/chips,
+"GE" = (
+/obj/item/trash/popcorn,
 /turf/open/floor/eighties,
 /area/chapel{
 	dynamic_lighting = 0;
@@ -2033,17 +1546,50 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"Tv" = (
-/turf/open/indestructible/grass/beach/coast_b{
-	dir = 10
+"GP" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "g"
 	},
+/turf/open/floor/mineral/titanium/yellow,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"Tw" = (
+"GY" = (
+/obj/structure/cursed_slot_machine,
+/turf/open/floor/circuit/red,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Ir" = (
+/obj/machinery/computer/arcade/battle{
+	dir = 8
+	},
+/turf/open/floor/circuit/green,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"IA" = (
+/obj/structure/barricade/security,
+/turf/open/floor/bluespace,
+/area/space)
+"IH" = (
+/turf/open/floor/bluespace,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"IQ" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8;
 	flags_1 = 131712;
@@ -2073,15 +1619,283 @@
 	name = "Start";
 	requires_power = 0
 	})
-"TM" = (
-/turf/open/space/basic,
+"IY" = (
+/obj/effect/overlay/palmtree_r,
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/indestructible/grass/beach,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"TN" = (
+"Ji" = (
+/obj/structure/chair/sofa/corner{
+	dir = 8
+	},
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"Kx" = (
+/obj/machinery/jukebox/disco/indestructible,
+/turf/open/indestructible/grass/beach/water,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"KN" = (
+/obj/item/reagent_containers/food/drinks/beer,
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 1
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"KU" = (
+/obj/structure/window/reinforced{
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"LA" = (
+/turf/open/floor/mineral/titanium/blue,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"LL" = (
+/obj/effect/turf_decal/trimline/red/filled/arrow_cw{
+	dir = 8
+	},
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Mk" = (
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Ml" = (
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Mx" = (
+/mob/living/simple_animal/crab,
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 4
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"MO" = (
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"Nb" = (
+/turf/open/floor/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Nn" = (
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/indestructible/grass/beach/coast_t{
+	icon_state = "sandwater_inner"
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Ny" = (
+/obj/structure/window{
+	dir = 1;
+	flags_1 = 131712;
+	layer = 3.21
+	},
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"NB" = (
+/obj/item/reagent_containers/food/drinks/beer,
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 8
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"NZ" = (
+/obj/machinery/computer/arcade/battle{
+	dir = 1
+	},
+/turf/open/floor/circuit/green,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Oo" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/abductor,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Os" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"OP" = (
+/obj/machinery/vending/toyliberationstation,
+/turf/open/floor/circuit/green,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Pi" = (
+/obj/structure/flora/grass/jungle/b,
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Pk" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "e"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Pl" = (
+/turf/closed/indestructible/opsglass,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"PX" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "m"
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"PY" = (
+/obj/structure/chair/sofa/corner,
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"QJ" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/item/trash/candy,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Rf" = (
+/obj/item/trash/raisins,
+/obj/item/trash/chips,
+/turf/open/floor/eighties,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Rm" = (
 /obj/structure/window/reinforced/clockwork{
 	invisibility = 101;
 	resistance_flags = 211
@@ -2094,25 +1908,9 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"Ue" = (
-/obj/structure/window/plasma/reinforced{
-	dir = 8;
-	flags_1 = 131712;
-	resistance_flags = 211
-	},
-/obj/structure/window/plasma/reinforced{
-	dir = 4;
-	flags_1 = 131712;
-	resistance_flags = 211
-	},
-/obj/structure/window{
-	dir = 1;
-	flags_1 = 131712;
-	layer = 3.21;
-	resistance_flags = 211
-	},
-/obj/item/extinguisher{
-	max_water = 1e+006
+"Rx" = (
+/obj/effect/turf_decal/arrows{
+	dir = 1
 	},
 /turf/open/indestructible,
 /area/bridge{
@@ -2121,11 +1919,13 @@
 	name = "Start";
 	requires_power = 0
 	})
-"Uj" = (
+"SD" = (
 /obj/structure/table/reinforced,
-/obj/machinery/paystand/register,
-/obj/machinery/door/window/brigdoor/eastright{
-	dir = 2
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	resistance_flags = 211
 	},
 /turf/open/floor/eighties,
 /area/chapel{
@@ -2134,35 +1934,87 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"Ut" = (
-/obj/structure/flora/grass/jungle/b,
-/obj/structure/flora/grass/jungle,
-/turf/open/indestructible/grass,
+"Ta" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "n"
+	},
+/turf/open/floor/mineral/titanium/yellow,
 /area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Main Course";
 	requires_power = 0
 	})
-"Uw" = (
-/turf/open/floor/eighties,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"UI" = (
-/turf/open/floor/mineral/titanium/blue,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"UV" = (
+"Ti" = (
 /obj/structure/window/reinforced/clockwork{
-	dir = 4;
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/floor/mineral/titanium,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Tm" = (
+/mob/living/simple_animal/crab,
+/obj/item/reagent_containers/food/drinks/beer,
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Tw" = (
+/obj/structure/flora/rock,
+/obj/structure/barricade/security{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"TL" = (
+/obj/machinery/vending/toyliberationstation,
+/turf/open/floor/circuit,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"TW" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"TZ" = (
+/turf/open/indestructible/grass/beach,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Ua" = (
+/obj/structure/closet/crate/bin,
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
 	invisibility = 101;
 	resistance_flags = 211
 	},
@@ -2173,26 +2025,17 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"Vn" = (
-/obj/structure/shuttle/engine/propulsion{
-	icon_state = "propulsion"
-	},
-/obj/structure/window/reinforced{
-	dir = 1;
+"UE" = (
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
 	resistance_flags = 211
 	},
-/turf/open/floor/fakespace,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Vz" = (
 /obj/structure/chair/comfy/shuttle{
 	can_buckle = 0;
 	dir = 1;
 	flags_1 = 128;
+	layer = 2.99;
 	max_buckled_mobs = 0;
 	mouse_opacity = 0
 	},
@@ -2203,16 +2046,201 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"WX" = (
-/obj/machinery/readybutton,
-/turf/closed/indestructible/syndicate,
+"UJ" = (
+/turf/closed/indestructible/opsglass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"UX" = (
+/obj/structure/flora/grass/jungle/b,
+/turf/open/indestructible/grass,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Vk" = (
+/obj/structure/cursed_slot_machine,
+/turf/open/floor/circuit/green,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"VS" = (
+/mob/living/simple_animal/crab,
+/turf/open/indestructible/grass/beach/coast_t{
+	dir = 1;
+	icon_state = "sandwater_inner"
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Wa" = (
+/obj/effect{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plasticflaps";
+	name = "one-way flaps"
+	},
+/turf/open/floor/bluespace,
 /area/bridge{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Start";
 	requires_power = 0
 	})
-"Xr" = (
+"We" = (
+/obj/item/trash/cheesie,
+/turf/open/floor/plating/abductor2{
+	icon_plating = "alienplating"
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Wg" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	resistance_flags = 211
+	},
+/turf/open/floor/fakespace,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Xe" = (
+/obj/machinery/computer/arcade/battle{
+	dir = 1
+	},
+/turf/open/floor/circuit,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Xf" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	resistance_flags = 211
+	},
+/turf/open/space/basic,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Xv" = (
+/obj/item/cardboard_cutout{
+	icon_state = "cutout_mime"
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 8;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 1;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 4;
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/window/reinforced/clockwork{
+	invisibility = 101;
+	resistance_flags = 211
+	},
+/obj/structure/chair/comfy/shuttle{
+	can_buckle = 0;
+	dir = 1;
+	flags_1 = 128;
+	layer = 2.99;
+	max_buckled_mobs = 0;
+	mouse_opacity = 0
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"XN" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	layer = 3.95
+	},
+/obj/item/reagent_containers/food/drinks/bottle/champagne{
+	layer = 3.9;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -6
+	},
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"Yj" = (
+/obj/effect/oneway{
+	dir = 1
+	},
+/obj/effect{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plasticflaps";
+	name = "one-way flaps"
+	},
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	invisibility = 101;
+	name = "flaps";
+	opacity = 1;
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"Yq" = (
+/obj/machinery/abductor/pad,
+/turf/open/floor/mineral/abductor,
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"Yw" = (
 /obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko,
 /turf/open/indestructible/grass/beach/coast_t{
 	dir = 1
@@ -2223,10 +2251,11 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"XB" = (
-/obj/item/trash/raisins,
-/obj/item/trash/raisins,
-/obj/item/trash/energybar,
+"Zm" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	resistance_flags = 211
+	},
 /turf/open/floor/eighties,
 /area/chapel{
 	dynamic_lighting = 0;
@@ -2234,66 +2263,40 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"XJ" = (
-/obj/effect/decal/cleanable/crayon{
-	icon_state = "e"
-	},
-/turf/open/floor/mineral/titanium/yellow,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"XS" = (
-/turf/open/floor/fakespace,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"YY" = (
-/obj/structure/window/reinforced{
-	dir = 4;
+"Zz" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 8;
+	flags_1 = 131712;
 	resistance_flags = 211
 	},
-/turf/open/floor/fakespace,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"Zt" = (
-/turf/open/indestructible/grass,
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"ZB" = (
-/obj/structure/window/reinforced{
+/obj/structure/window/plasma/reinforced{
+	flags_1 = 131712;
 	resistance_flags = 211
 	},
-/turf/open/floor/bluespace,
-/area/space)
-"ZJ" = (
-/obj/item/reagent_containers/food/drinks/beer,
-/turf/open/indestructible/grass/beach/coast_t{
-	dir = 8
-	},
-/area/chapel{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Main Course";
-	requires_power = 0
-	})
-"ZO" = (
-/obj/effect/oneway{
+/obj/structure/chair/office/light{
 	dir = 1
 	},
+/obj/structure/window/plasma/reinforced{
+	dir = 4;
+	flags_1 = 131712;
+	resistance_flags = 211
+	},
+/obj/item/extinguisher{
+	layer = 2.99;
+	max_water = 1e+006
+	},
+/obj/effect/landmark/start,
+/turf/open/indestructible,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"ZI" = (
+/obj/structure/chair/sofa{
+	dir = 8
+	},
 /turf/open/floor/bluespace,
 /area/bridge{
 	dynamic_lighting = 0;
@@ -2301,13 +2304,13 @@
 	name = "Start";
 	requires_power = 0
 	})
-"ZR" = (
-/obj/structure/chair/sofa/corner,
-/turf/open/floor/bluespace,
-/area/bridge{
+"ZN" = (
+/obj/item/trash/semki,
+/turf/open/floor/eighties,
+/area/chapel{
 	dynamic_lighting = 0;
 	has_gravity = 1;
-	name = "Start";
+	name = "Main Course";
 	requires_power = 0
 	})
 
@@ -2486,87 +2489,87 @@ ap
 ap
 ap
 ap
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
 "}
 (2,1,1) = {"
 ap
@@ -2743,87 +2746,87 @@ ap
 ap
 ap
 ap
-jU
-du
-du
-du
-du
-jU
-jU
-jU
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-XS
-TM
-OH
-zE
-tz
-HY
-qL
-tc
-Uw
-Uw
-NZ
-Uw
-Uw
-Uw
-Uw
-Uw
-Uw
-Lr
-Lr
-Lr
-Lr
-Lr
-Lr
-Lr
-Lr
-zz
-tc
-Uw
-SX
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Jy
-Jy
-nN
-Zt
-Zt
-Zt
-Zt
-Jo
-aQ
-aQ
-wv
-aQ
-aQ
-Jo
-rh
-gt
-gt
-gt
-gt
-gt
-gt
-gt
-gt
-gt
-gt
-qO
+ud
+AS
+AS
+AS
+AS
+ud
+ud
+ud
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+Fd
+DI
+xz
+fd
+Aq
+Gi
+tP
+lC
+EO
+EO
+GE
+EO
+EO
+EO
+EO
+EO
+EO
+Ml
+Ml
+Ml
+Ml
+Ml
+Ml
+Ml
+Ml
+zG
+lC
+EO
+nK
+oz
+oz
+oz
+oz
+oz
+oz
+TZ
+TZ
+IY
+oz
+oz
+oz
+oz
+UX
+Dx
+Dx
+lN
+Dx
+Dx
+UX
+Yj
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+sV
 "}
 (3,1,1) = {"
 ap
@@ -3000,87 +3003,87 @@ ap
 ap
 ap
 ap
-jU
-du
-Pp
-du
-du
-du
-du
-jU
-TM
-TM
-TM
-TM
-TM
-jU
-jU
-rC
-rC
-rC
-jU
-FQ
-XS
-TM
-OH
-CC
-Pq
-ez
-xA
-Uw
-NZ
-Uw
-qp
-Uw
-DK
-Nl
-Nl
-jN
-ez
-ks
-ks
-ks
-ks
-ks
-ks
-ks
-ks
-tB
-tc
-La
-SX
-Zt
-Zt
-Zt
-Jy
-Jy
-Jy
-Jy
-MT
-MT
-MT
-Jy
-Zt
-Zt
-Jo
-EY
-aQ
-aQ
-aQ
-sU
-Zt
-rh
-kh
-Ue
-Tw
-qZ
-qZ
-qZ
-kh
-Ue
-Tw
-gt
-qO
+ud
+AS
+Be
+AS
+AS
+AS
+AS
+ud
+DI
+DI
+DI
+DI
+DI
+ud
+ud
+CI
+CI
+CI
+ud
+Xf
+Fd
+DI
+xz
+lp
+pR
+Mk
+Zm
+EO
+GE
+EO
+ZN
+EO
+bX
+ix
+ix
+Bm
+Mk
+lu
+lu
+lu
+lu
+lu
+lu
+lu
+lu
+TL
+lC
+oM
+nK
+oz
+oz
+oz
+TZ
+TZ
+TZ
+TZ
+pX
+pX
+pX
+TZ
+oz
+oz
+UX
+ut
+Dx
+Dx
+Dx
+Pi
+oz
+Yj
+cR
+fo
+IQ
+Rx
+Rx
+Rx
+cR
+fo
+IQ
+Db
+sV
 "}
 (4,1,1) = {"
 ap
@@ -3257,87 +3260,87 @@ ap
 ap
 ap
 ap
-jU
-du
-xt
-du
-du
-hY
-hY
-jU
-TM
-TM
-TM
-TM
-jU
-Qp
-yk
+ud
+AS
 Pk
-mD
-Pk
-My
-pv
-Vn
-TM
-OH
-NZ
-Uw
-ez
-OZ
-Uw
-Uw
-sA
-Uw
-Uw
-cu
-wN
-wN
-qS
-Uw
-sN
-sN
-sN
-sN
-sN
-sN
-sN
-sN
-sN
-Uw
-Uw
-SX
-Zt
-Zt
-Zt
-Jy
-EY
-aQ
-EY
-gA
-gA
-gA
-Jy
-Zt
-Zt
-Jy
-EY
-Jy
-Jy
-Zt
-Zt
-Zt
-rh
-qZ
-qZ
-kh
-Ue
-Tw
-gt
-gt
-gt
-gt
-gt
-qO
+AS
+AS
+dx
+dx
+ud
+DI
+DI
+DI
+DI
+ud
+AC
+Os
+Ti
+we
+Ti
+Cx
+qW
+yZ
+DI
+xz
+GE
+EO
+Mk
+SD
+EO
+EO
+ex
+EO
+EO
+rR
+GY
+GY
+rs
+EO
+fI
+fI
+fI
+fI
+fI
+fI
+fI
+fI
+fI
+EO
+EO
+nK
+oz
+oz
+oz
+TZ
+ut
+Dx
+ut
+LL
+LL
+LL
+TZ
+oz
+oz
+TZ
+ut
+TZ
+TZ
+oz
+oz
+oz
+Yj
+Rx
+Rx
+cR
+fo
+IQ
+Db
+Db
+Db
+Db
+Db
+sV
 "}
 (5,1,1) = {"
 ap
@@ -3514,87 +3517,87 @@ ap
 ap
 ap
 ap
-jU
+ud
+AS
+Af
+AS
+AS
+AS
+dx
+ud
+DI
+DI
+DI
+ud
+nF
 du
-Eg
-du
-du
-du
-hY
-jU
-TM
-TM
-TM
-jU
-mF
-aL
-nM
-nM
-Vz
-nM
-DU
-pv
-Vn
-TM
-OH
-Uw
-Uw
-ez
-qL
-tc
-Uw
-Uw
-Uw
-Uw
-cu
-wN
-wN
-qS
-jN
-jN
-DK
-jN
-Rw
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-eV
-Zt
-Zt
-Zt
-zK
-aQ
-JU
-Jo
-Zt
-Zt
-Zt
-Jo
-Zt
-Zt
-Jy
-Jy
-Jy
-Jy
-Jo
-Zt
-Zt
-rh
-kh
-Ue
-Tw
-qZ
-kh
-Ue
-Tw
-gt
-gt
-gt
-qO
+Nb
+Nb
+jD
+Nb
+bu
+qW
+yZ
+DI
+xz
+EO
+EO
+Mk
+tP
+lC
+EO
+EO
+EO
+EO
+rR
+GY
+GY
+rs
+Bm
+Bm
+bX
+Bm
+yy
+Bm
+Bm
+Bm
+Bm
+Bm
+Bm
+Bm
+nu
+oz
+oz
+oz
+ga
+Dx
+uc
+UX
+oz
+oz
+oz
+UX
+oz
+oz
+TZ
+TZ
+TZ
+TZ
+UX
+oz
+oz
+Yj
+cR
+fo
+IQ
+Rx
+cR
+fo
+IQ
+Db
+Db
+Db
+sV
 "}
 (6,1,1) = {"
 ap
@@ -3771,87 +3774,87 @@ ap
 ap
 ap
 ap
-jU
-du
-du
-du
-du
-du
-hY
-jU
-rC
-rC
-rC
-jU
-Pk
-nM
-sz
-nM
-Vz
-nM
-Vz
-pv
-Vn
-TM
-OH
-Uw
-Uw
-ez
-xA
-Uw
-jN
-Nl
-Nl
-DK
-cu
-wN
-wN
-qS
-Uw
-UV
-UV
-UV
-UV
-UV
-UV
-el
-UV
-UV
-Uw
-jN
-eV
-Zt
-Jy
-Jo
-aQ
-aV
-uf
-uf
-uf
-iD
-Jo
-Jo
-Zt
-Jo
-Zt
-Jy
-Jy
-Zt
-Zt
-Zt
-Zt
-rh
-qZ
-qZ
-kh
-Ue
-Tw
-qZ
-kh
-Ue
-Tw
-gt
-qO
+ud
+AS
+AS
+AS
+AS
+AS
+dx
+ud
+CI
+CI
+CI
+ud
+Ti
+Nb
+jO
+Nb
+jD
+Nb
+jD
+qW
+yZ
+DI
+xz
+EO
+EO
+Mk
+Zm
+EO
+Bm
+ix
+ix
+bX
+rR
+GY
+GY
+rs
+EO
+ad
+ad
+ad
+ad
+ad
+ad
+EM
+ad
+ad
+EO
+Bm
+nu
+oz
+TZ
+UX
+Dx
+qo
+zB
+zB
+zB
+ei
+UX
+UX
+oz
+UX
+oz
+TZ
+TZ
+oz
+oz
+oz
+oz
+Yj
+Rx
+Rx
+cR
+fo
+IQ
+Rx
+cR
+fo
+IQ
+Db
+sV
 "}
 (7,1,1) = {"
 ap
@@ -4028,87 +4031,87 @@ ap
 ap
 ap
 ap
-jU
-du
-du
-du
-du
-du
-hY
-nM
-Pk
-mD
-Pk
-Vz
-nM
-nM
-Vz
-nM
-Vz
-nM
-Vz
-pv
-Vn
-TM
-OH
-Uw
-Uw
-ez
-Am
-Uw
-cu
-sQ
-gG
-qS
-cu
-wN
-wN
-qS
-Fy
-ui
-ui
-ui
-ui
-ui
-ui
-ui
-ui
-OU
-tc
-jN
-eV
-Zt
-Jy
-Jo
-aQ
-Ct
-Br
-Br
-GC
-Rt
-iD
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Jo
-Zt
-Zt
-Zt
-rh
-kh
-Ue
+ud
+AS
+AS
+AS
+AS
+AS
+dx
+Nb
+Ti
+we
+Ti
+jD
+Nb
+Nb
+jD
+Nb
+jD
+Nb
+jD
+qW
+yZ
+DI
+xz
+EO
+EO
+Mk
+Eo
+EO
+rR
+NZ
+pd
+rs
+rR
+GY
+GY
+rs
+gx
+Ir
+Ir
+Ir
+Ir
+Ir
+Ir
+Ir
+Ir
+OP
+lC
+Bm
+nu
+oz
+TZ
+UX
+Dx
+Nn
+Mx
+Mx
+VS
 Tw
-qZ
-kh
-Ue
-Tw
-gt
-gt
-gt
-qO
+ei
+oz
+oz
+oz
+oz
+oz
+oz
+UX
+oz
+oz
+oz
+Yj
+cR
+fo
+IQ
+Rx
+cR
+fo
+IQ
+Db
+Db
+Db
+sV
 "}
 (8,1,1) = {"
 ap
@@ -4285,87 +4288,87 @@ ap
 ap
 ap
 ap
-jU
-Ll
-Ll
-Ll
-Ll
-Ll
-hY
-nM
-nM
-Ir
-nM
-Vz
-nM
-nM
-Vz
-nM
-Vz
-nM
-Vz
-eG
-Iw
-YY
-OH
-Uw
-Uw
-Uw
-sN
-Uw
-cu
-il
-wm
-qS
-jN
-LX
-LX
-jN
-ez
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-pL
-OU
-tc
-jN
-eV
-Jy
-Jy
-Jo
-Jo
-sS
-Ck
-aZ
-Cd
-PI
-NI
-iD
-Zt
-Zt
-Jy
-Jy
-Zt
-Zt
-Zt
-Zt
-Zt
-rh
-qZ
-qZ
-kh
-Ue
-Tw
-qZ
-kh
-Ue
-Tw
-gt
-qO
+ud
+bk
+bk
+bk
+bk
+bk
+dx
+Nb
+Nb
+Xv
+Nb
+jD
+Nb
+Nb
+jD
+Nb
+jD
+Nb
+jD
+qR
+Wg
+md
+xz
+EO
+EO
+EO
+fI
+EO
+rR
+Xe
+ma
+rs
+Bm
+Oo
+Oo
+Bm
+Mk
+cQ
+cQ
+cQ
+cQ
+cQ
+cQ
+cQ
+cQ
+OP
+lC
+Bm
+nu
+TZ
+TZ
+UX
+UX
+ae
+bv
+le
+ry
+aI
+aV
+ei
+oz
+oz
+TZ
+TZ
+oz
+oz
+oz
+oz
+oz
+Yj
+Rx
+Rx
+cR
+fo
+IQ
+Rx
+cR
+fo
+IQ
+Db
+sV
 "}
 (9,1,1) = {"
 ap
@@ -4542,87 +4545,87 @@ ap
 ap
 ap
 ap
-jU
-Ll
-XJ
-Ll
-Ll
-Ll
-hY
-nM
-nM
-UI
-nM
-UI
-nM
-nM
-UI
-nM
-UI
-nM
-UI
-fu
-fu
-fu
-eV
-jN
-jN
-DK
-jN
-jN
-cu
-sQ
-gG
-qS
-DK
-IE
-DK
-jN
-Uw
-sN
-sN
-sN
-sN
-sN
-sN
-sN
-sN
-sN
-Uw
-jN
-eV
-Jy
-Jy
-Zt
-Jo
-sS
-cK
-vh
-hs
-Bz
-uf
-iD
-Zt
-Jy
-Jy
-Zt
-Zt
-Zt
-Zt
-Jy
-Zt
-rh
-kh
-Ue
-Tw
-qZ
-kh
-Ue
-Tw
-gt
-gt
-gt
-qO
+ud
+bk
+Eb
+bk
+bk
+bk
+dx
+Nb
+Nb
+LA
+Nb
+LA
+Nb
+Nb
+LA
+Nb
+LA
+Nb
+LA
+yu
+yu
+yu
+nu
+Bm
+Bm
+bX
+Bm
+Bm
+rR
+NZ
+pd
+rs
+bX
+We
+bX
+Bm
+EO
+fI
+fI
+fI
+fI
+fI
+fI
+fI
+fI
+fI
+EO
+Bm
+nu
+TZ
+TZ
+oz
+UX
+ae
+Ah
+Do
+wX
+CT
+zB
+ei
+oz
+TZ
+TZ
+oz
+oz
+oz
+oz
+TZ
+oz
+Yj
+cR
+fo
+IQ
+Rx
+cR
+fo
+IQ
+Db
+Db
+Db
+sV
 "}
 (10,1,1) = {"
 ap
@@ -4799,87 +4802,87 @@ ap
 ap
 ap
 ap
-jU
-Ll
-KR
-Ll
-Ll
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-hY
-eV
-jN
-jN
-jN
-jN
-DK
-cu
-il
-wm
-qS
-jN
-jN
-jN
-jN
-DK
-DK
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-Rw
-DK
-jN
-eV
-Jy
-Jy
-Zt
-Zt
-sS
-cK
-jd
-Tv
-Xr
-nC
-Rt
-iD
-Jy
-Jy
-Zt
-Zt
-Zt
-Jy
-Jy
-Zt
-rh
-qZ
-qZ
-kh
-Ue
-mt
-gt
-gt
-gt
-gt
-gt
-qO
+ud
+bk
+Ta
+bk
+bk
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+nu
+Bm
+Bm
+Bm
+Bm
+bX
+rR
+Xe
+ma
+rs
+Bm
+Bm
+Bm
+Bm
+bX
+bX
+Bm
+Bm
+Bm
+Bm
+Bm
+Bm
+Bm
+yy
+bX
+Bm
+nu
+TZ
+TZ
+oz
+oz
+ae
+Ah
+Kx
+to
+Yw
+Tm
+Tw
+ei
+TZ
+TZ
+oz
+oz
+oz
+TZ
+TZ
+oz
+Yj
+Rx
+Rx
+cR
+fo
+Zz
+Db
+Db
+Db
+Db
+Db
+sV
 "}
 (11,1,1) = {"
 ap
@@ -5056,87 +5059,87 @@ ap
 ap
 ap
 ap
-jU
-Ll
-rA
-Ll
-Ll
-Ll
-hY
-nM
-nM
-UI
-nM
-UI
-nM
-nM
-UI
-nM
-UI
-nM
-UI
-fu
-fu
-fu
-eV
-DK
-jN
-jN
-jN
-jN
-cu
-sQ
-gG
-qS
-DK
-DK
-DK
-jN
-Uw
-UV
-UV
-el
-UV
-UV
-UV
-UV
-UV
-UV
-Uw
-jN
-eV
-Jy
-Jy
-Zt
-Zt
-sS
-cK
-PX
-vh
-Xr
-jt
-NI
-iD
-Zt
-Jy
-Zt
-Jy
-Jy
-Jy
-Jo
-Jo
-rh
-kh
-Ue
-mt
-qZ
-qZ
-qZ
-kh
-Ue
-Tw
-gt
-qO
+ud
+bk
+GP
+bk
+bk
+bk
+dx
+Nb
+Nb
+LA
+Nb
+LA
+Nb
+Nb
+LA
+Nb
+LA
+Nb
+LA
+yu
+yu
+yu
+nu
+bX
+Bm
+Bm
+Bm
+Bm
+rR
+NZ
+pd
+rs
+bX
+bX
+bX
+Bm
+EO
+ad
+ad
+EM
+ad
+ad
+ad
+ad
+ad
+ad
+EO
+Bm
+nu
+TZ
+TZ
+oz
+oz
+ae
+Ah
+vB
+Do
+Yw
+Cr
+aV
+ei
+oz
+TZ
+oz
+TZ
+TZ
+TZ
+UX
+UX
+Yj
+cR
+fo
+Zz
+Rx
+Rx
+Rx
+cR
+fo
+IQ
+Db
+sV
 "}
 (12,1,1) = {"
 ap
@@ -5313,87 +5316,87 @@ ap
 ap
 ap
 ap
-jU
-Ll
-Ll
-Ll
-Ll
-Ll
-hY
-nM
-nM
-Vz
-nM
-Vz
-nM
-nM
-Vz
-nM
-Vz
-nM
-Vz
-Ap
-Iw
-Hb
-OH
-Uw
-Uw
-Uw
-UV
-Uw
-cu
-il
-wm
-qS
-jN
-Nl
-Nl
-jN
-ez
-cp
-cp
-cp
-cp
-cp
-cp
-cp
-cp
-tB
-tc
-jN
-eV
-Jy
-Jy
-Zt
-Zt
-sS
-OP
-PH
-aP
-OW
-iy
-uf
-iD
-Zt
-Jy
-Zt
-Jy
-Jy
-EY
-aQ
-aQ
-rh
-gt
-gt
-gt
-gt
-gt
-gt
-gt
-gt
-gt
-gt
-qO
+ud
+bk
+bk
+bk
+bk
+bk
+dx
+Nb
+Nb
+jD
+Nb
+jD
+Nb
+Nb
+jD
+Nb
+jD
+Nb
+jD
+rg
+Wg
+ki
+xz
+EO
+EO
+EO
+ad
+EO
+rR
+Xe
+ma
+rs
+Bm
+ix
+ix
+Bm
+Mk
+es
+es
+es
+es
+es
+es
+es
+es
+TL
+lC
+Bm
+nu
+TZ
+TZ
+oz
+oz
+ae
+eB
+nA
+wC
+KN
+pm
+zB
+ei
+oz
+TZ
+oz
+TZ
+TZ
+ut
+Dx
+Dx
+Yj
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+Db
+sV
 "}
 (13,1,1) = {"
 ap
@@ -5570,87 +5573,87 @@ ap
 ap
 ap
 ap
-jU
-fu
-fu
-fu
-fu
-fu
-hY
-nM
-JJ
-qk
-JJ
-kH
-nM
-nM
-Vz
-nM
-Vz
-nM
-Vz
-pv
-Vn
-TM
-OH
-Uw
-Uw
-ez
-Am
-Uw
-cu
-sQ
-gG
-qS
-cu
-wN
-wN
-qS
-ez
-ks
-ks
-ks
-ks
-ks
-ks
-ks
-ks
-tB
-tc
-jN
-eV
-Zt
-Jy
-Zt
-Zt
-Px
-ZJ
-Em
-Em
-oL
-iq
-uf
-iD
-Zt
-Zt
-Zt
-Zt
-Jo
-aQ
-aQ
-aQ
-qO
-rB
-rB
-rB
-rB
-rB
-rB
-rB
-rB
-rB
-rB
-qO
+ud
+yu
+yu
+yu
+yu
+yu
+dx
+Nb
+zH
+UE
+zH
+up
+Nb
+Nb
+jD
+Nb
+jD
+Nb
+jD
+qW
+yZ
+DI
+xz
+EO
+EO
+Mk
+Eo
+EO
+rR
+NZ
+pd
+rs
+rR
+GY
+GY
+rs
+Mk
+lu
+lu
+lu
+lu
+lu
+lu
+lu
+lu
+TL
+lC
+Bm
+nu
+oz
+TZ
+oz
+oz
+fW
+NB
+vM
+vM
+gT
+DH
+zB
+ei
+oz
+oz
+oz
+oz
+UX
+Dx
+Dx
+Dx
+sV
+Pl
+Pl
+Pl
+Pl
+Pl
+Pl
+Pl
+Pl
+Pl
+Pl
+sV
 "}
 (14,1,1) = {"
 ap
@@ -5827,87 +5830,87 @@ ap
 ap
 ap
 ap
-jU
-fu
-fu
-fu
-fu
-fu
-hY
-jU
-rC
-rC
-rC
-jU
-JJ
-nM
-Vz
-nM
-Vz
-nM
-Vz
-pv
-Vn
-TM
-OH
-Uw
-Uw
-ez
-xA
-Uw
-jN
-LX
-LX
-jN
-cu
-wN
-wN
-qS
-Uw
-sN
-fS
-sN
-sN
-sN
-sN
-sN
-sN
-sN
-Uw
-jN
-eV
-Zt
-Jy
-Zt
-Zt
-Zt
-ND
-jt
-jt
-jt
-jt
-NI
-iD
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
+ud
+yu
+yu
+yu
+yu
+yu
+dx
+ud
+CI
+CI
+CI
+ud
+zH
+Nb
+jD
+Nb
+jD
+Nb
+jD
+qW
+yZ
+DI
+xz
+EO
+EO
+Mk
+Zm
+EO
+Bm
+Oo
+Oo
+Bm
+rR
+GY
+GY
+rs
+EO
+fI
+QJ
+fI
+fI
+fI
+fI
+fI
+fI
+fI
+EO
+Bm
+nu
+oz
+TZ
+oz
+oz
+oz
+bA
+Cr
+Cr
+Cr
+Cr
 aV
-aQ
-WX
-Ms
-cn
-gu
-Dh
-td
-ub
-gu
-Bn
-td
-cn
-qO
+ei
+oz
+oz
+oz
+oz
+oz
+oz
+qo
+Dx
+Ck
+Ny
+nm
+TW
+XN
+ww
+vf
+TW
+FO
+ww
+nm
+sV
 "}
 (15,1,1) = {"
 ap
@@ -6084,87 +6087,87 @@ ap
 ap
 ap
 ap
-jU
-fu
-Gv
-fu
-fu
-fu
-hY
-jU
-TM
-TM
-TM
-jU
-mF
-bG
-nM
-nM
-iQ
-nM
-Vz
-pv
-Vn
-TM
-OH
-Uw
-Uw
-ez
-Uj
-tc
-Uw
-Uw
-Uw
-Uw
-TN
-wN
-wN
-qS
-jN
-my
-jN
-jN
-jN
-jN
-DK
-jN
-jN
-jN
-jN
-Rw
-eV
-Zt
-EY
-Ut
-Jo
-Zt
-Zt
-uf
-Rt
-uf
-NI
-iD
-Zt
-Jy
-Jo
-Jo
-Zt
-Jo
-aQ
-aQ
-aQ
-BT
-cn
-cn
-ZR
-tb
-cM
-cn
-ZR
-tb
-cM
-cn
-qO
+ud
+yu
+PX
+yu
+yu
+yu
+dx
+ud
+DI
+DI
+DI
+ud
+nF
+xL
+Nb
+Nb
+Ap
+Nb
+jD
+qW
+yZ
+DI
+xz
+EO
+EO
+Mk
+Ab
+lC
+EO
+EO
+EO
+EO
+Rm
+GY
+GY
+rs
+Bm
+fK
+Bm
+Bm
+Bm
+Bm
+bX
+Bm
+Bm
+Bm
+Bm
+yy
+nu
+oz
+ut
+ct
+UX
+oz
+oz
+zB
+Tw
+zB
+aV
+ei
+oz
+TZ
+UX
+UX
+oz
+UX
+Dx
+Dx
+Dx
+qU
+nm
+nm
+PY
+ZI
+Ji
+nm
+PY
+ZI
+Ji
+nm
+sV
 "}
 (16,1,1) = {"
 ap
@@ -6341,87 +6344,87 @@ ap
 ap
 ap
 ap
-jU
-fu
-vM
-fu
-fu
-hY
-hY
-jU
-TM
-TM
-TM
-TM
-jU
-Qp
-yk
-JJ
-qk
-JJ
-ET
-pv
-Vn
-TM
-OH
-sH
-Hg
-ez
-OZ
-Uw
-Uw
-Uw
-Uw
-Uw
-cu
-wN
-wN
-qS
-Uw
-UV
-UV
-UV
-UV
-UV
-UV
-UV
-UV
-UV
-Uw
-Uw
-SX
-Zt
-Jo
-Ut
-Jo
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-EY
-sU
-aQ
-SX
-SX
-SX
-SX
-SX
-qO
-tZ
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-qO
+ud
+yu
+iY
+yu
+yu
+dx
+dx
+ud
+DI
+DI
+DI
+DI
+ud
+AC
+Os
+zH
+UE
+zH
+Bu
+qW
+yZ
+DI
+xz
+CF
+pH
+Mk
+SD
+EO
+EO
+EO
+EO
+EO
+rR
+GY
+GY
+rs
+EO
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+EO
+EO
+nK
+oz
+UX
+ct
+UX
+oz
+oz
+oz
+oz
+oz
+oz
+oz
+ut
+Pi
+Dx
+nK
+nK
+nK
+nK
+nK
+sV
+AR
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+sV
 "}
 (17,1,1) = {"
 ap
@@ -6598,87 +6601,87 @@ ap
 ap
 ap
 ap
-jU
-fu
-oU
-fu
-fu
-fu
-fu
-jU
-TM
-TM
-TM
-TM
-TM
-jU
-jU
-rC
-rC
-rC
-jU
-yQ
-Hb
-TM
-OH
-Th
-XB
-dQ
-xA
-Uw
-La
-Uw
-Uw
-qp
-jN
-LX
-LX
-DK
-Hv
-ui
-ui
-ui
-ui
-ui
-ui
-ui
-ui
-OU
-zu
-Uw
-SX
-Zt
-Zt
-Jo
-Zt
-Jy
-Jy
-Jy
-Zt
-Zt
-Jy
-Jy
-Av
-aQ
-aQ
-SX
-bT
-bT
-bT
-bT
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-cn
-qO
+ud
+yu
+ux
+yu
+yu
+yu
+yu
+ud
+DI
+DI
+DI
+DI
+DI
+ud
+ud
+CI
+CI
+CI
+ud
+hb
+ki
+DI
+xz
+Rf
+FI
+cV
+Zm
+EO
+oM
+EO
+EO
+ZN
+Bm
+Oo
+Oo
+bX
+pM
+Ir
+Ir
+Ir
+Ir
+Ir
+Ir
+Ir
+Ir
+OP
+bC
+EO
+nK
+oz
+oz
+UX
+oz
+TZ
+TZ
+TZ
+oz
+oz
+TZ
+TZ
+dY
+Dx
+Dx
+nK
+IH
+IH
+IH
+IH
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+sV
 "}
 (18,1,1) = {"
 ap
@@ -6855,87 +6858,87 @@ ap
 ap
 ap
 ap
-jU
-fu
-fu
-fu
-fu
-jU
-jU
-jU
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-TM
-OH
-Ha
-La
-BK
-Uj
-tc
-Uw
-Uw
-Uw
-Uw
-Uw
-Uw
-Uw
-Uw
-Uw
-Lr
-Lr
-Lr
-Lr
-Lr
-Lr
-Lr
-Lr
-fP
-tc
-Uw
-SX
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Jo
-Zt
-aQ
-wv
-SX
-bT
-bT
-bT
-bT
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
-qO
+ud
+yu
+yu
+yu
+yu
+ud
+ud
+ud
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+DI
+xz
+Ua
+oM
+za
+Ab
+lC
+EO
+EO
+EO
+EO
+EO
+EO
+EO
+EO
+EO
+Ml
+Ml
+Ml
+Ml
+Ml
+Ml
+Ml
+Ml
+Vk
+lC
+EO
+nK
+oz
+oz
+oz
+oz
+oz
+oz
+oz
+oz
+oz
+oz
+UX
+oz
+Dx
+lN
+nK
+IH
+IH
+IH
+IH
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
+sV
 "}
 (19,1,1) = {"
 ap
@@ -7112,82 +7115,82 @@ ap
 ap
 ap
 ap
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-jU
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-OH
-si
-aX
-aX
-aX
-aX
-aX
-aX
-aX
-aX
-aX
-aX
-aX
-aX
-OH
-OH
-OH
-OH
-OH
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-ge
-ge
-ge
-ge
-ge
-ge
-ge
-ge
-SX
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+ud
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+xz
+Gj
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+xz
+xz
+xz
+xz
+xz
+nK
+nK
+nK
+nK
+nK
+nK
+nK
+UJ
+UJ
+UJ
+UJ
+UJ
+UJ
+UJ
+UJ
+nK
 am
 am
 am
 am
 aW
-Ln
-ZO
-fK
+kv
+kz
+Wa
 an
-uP
-vB
-ZB
+IA
+MO
+KU
 am
 am
 am
@@ -7695,7 +7698,7 @@ am
 am
 am
 aW
-rh
+Yj
 am
 am
 am
@@ -7916,12 +7919,12 @@ am
 am
 am
 am
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+wp
+wp
+wp
+wp
+wp
+wp
 am
 am
 am
@@ -7938,12 +7941,12 @@ am
 am
 am
 am
-Gx
-Gx
-Gx
-Gx
-Gx
-Gx
+wp
+wp
+wp
+wp
+wp
+wp
 am
 am
 am
