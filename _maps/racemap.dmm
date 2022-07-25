@@ -1,98 +1,66 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/oneway{
+	dir = 1
+	},
+/obj/effect{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plasticflaps";
+	name = "one-way flaps"
+	},
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	invisibility = 101;
+	name = "flaps";
+	opacity = 1;
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/space)
 "b" = (
 /obj/effect/oneway{
 	dir = 1
 	},
 /turf/open/floor/bluespace,
 /area/space)
-"f" = (
-/obj/machinery/conveyor/auto{
-	dir = 1;
-	name = "flaps";
-	opacity = 1;
-	resistance_flags = 211
-	},
-/obj/effect/oneway{
-	dir = 1
-	},
-/obj/effect{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "plasticflaps";
-	name = "one-way flaps"
-	},
-/turf/open/floor/bluespace,
-/area/space)
-"g" = (
-/obj/effect{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "plasticflaps";
-	name = "one-way flaps"
-	},
-/turf/open/floor/bluespace,
-/area/space)
-"j" = (
-/turf/closed/indestructible/riveted/uranium{
-	smooth = 0
-	},
-/area/chapel{
+"c" = (
+/obj/machinery/readybutton,
+/turf/closed/indestructible/opshuttle,
+/area/bridge{
 	dynamic_lighting = 0;
 	has_gravity = 1;
-	name = "Main Course";
+	name = "Start";
+	requires_power = 0
+	})
+"f" = (
+/obj/structure/fireaxecabinet/bridge/spare{
+	req_access = null
+	},
+/turf/closed/indestructible/opshuttle,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"g" = (
+/turf/closed/indestructible/syndicate,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"j" = (
+/obj/structure/chair/sofa/corner,
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
 	requires_power = 0
 	})
 "k" = (
-/obj/machinery/conveyor/auto{
-	dir = 1;
-	name = "flaps";
-	opacity = 1;
-	resistance_flags = 211
-	},
-/turf/open/floor/bluespace,
-/area/space)
-"l" = (
-/obj/effect/landmark/observer_start,
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"m" = (
-/turf/open/floor/bluespace,
-/area/space)
-"n" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("admin");
-	installation = /obj/item/gun/energy/laser/instakill
-	},
-/turf/open/floor/bluespace,
-/area/space)
-"o" = (
-/obj/structure/chair/sofa/right{
-	dir = 1
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"p" = (
-/turf/closed/indestructible/riveted/uranium{
-	smooth = 0
-	},
-/area/space)
-"q" = (
-/turf/closed/indestructible/opsglass,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"r" = (
 /turf/open/floor/grass,
 /area/chapel{
 	dynamic_lighting = 0;
@@ -100,38 +68,7 @@
 	name = "Main Course";
 	requires_power = 0
 	})
-"s" = (
-/obj/structure/chair/sofa/right,
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"t" = (
-/obj/machinery/conveyor/auto{
-	dir = 1;
-	name = "flaps";
-	opacity = 1;
-	resistance_flags = 211
-	},
-/obj/effect/oneway{
-	dir = 1
-	},
-/obj/effect{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "plasticflaps";
-	name = "one-way flaps"
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"u" = (
+"l" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8;
 	flags_1 = 131712;
@@ -158,12 +95,32 @@
 	name = "Start";
 	requires_power = 0
 	})
-"v" = (
-/obj/structure/window{
-	dir = 1;
-	flags_1 = 131712;
-	layer = 3.21;
-	resistance_flags = 211
+"m" = (
+/turf/open/floor/bluespace,
+/area/space)
+"n" = (
+/obj/machinery/porta_turret/syndicate/energy/heavy{
+	faction = list("admin");
+	installation = /obj/item/gun/energy/laser/instakill
+	},
+/turf/open/floor/bluespace,
+/area/space)
+"p" = (
+/turf/closed/indestructible/riveted/uranium{
+	smooth = 0
+	},
+/area/space)
+"q" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	layer = 3.95
+	},
+/obj/item/reagent_containers/food/drinks/bottle/champagne{
+	layer = 3.9;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -6
 	},
 /turf/open/floor/bluespace,
 /area/bridge{
@@ -172,9 +129,38 @@
 	name = "Start";
 	requires_power = 0
 	})
-"w" = (
-/obj/structure/chair/sofa/corner,
+"r" = (
+/turf/open/indestructible,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"s" = (
+/obj/effect{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "plasticflaps";
+	name = "one-way flaps"
+	},
 /turf/open/floor/bluespace,
+/area/space)
+"t" = (
+/obj/structure/chair/sofa{
+	dir = 8
+	},
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"v" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 1
+	},
+/turf/open/indestructible,
 /area/bridge{
 	dynamic_lighting = 0;
 	has_gravity = 1;
@@ -184,15 +170,15 @@
 "x" = (
 /turf/closed/indestructible/opshuttle,
 /area/space)
-"y" = (
-/turf/open/indestructible,
+"z" = (
+/turf/closed/indestructible/opsglass,
 /area/bridge{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Start";
 	requires_power = 0
 	})
-"C" = (
+"A" = (
 /obj/effect/turf_decal/arrows{
 	dir = 1
 	},
@@ -204,6 +190,15 @@
 	requires_power = 0
 	})
 "D" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"F" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8;
 	flags_1 = 131712;
@@ -233,7 +228,40 @@
 	name = "Start";
 	requires_power = 0
 	})
-"E" = (
+"G" = (
+/obj/structure/window{
+	dir = 1;
+	flags_1 = 131712;
+	layer = 3.21;
+	resistance_flags = 211
+	},
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"I" = (
+/turf/closed/indestructible/riveted/uranium{
+	smooth = 0
+	},
+/area/chapel{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Main Course";
+	requires_power = 0
+	})
+"M" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/bluespace,
+/area/bridge{
+	dynamic_lighting = 0;
+	has_gravity = 1;
+	name = "Start";
+	requires_power = 0
+	})
+"N" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass{
 	pixel_x = -6
@@ -252,7 +280,7 @@
 	name = "Start";
 	requires_power = 0
 	})
-"F" = (
+"O" = (
 /turf/closed/indestructible/opshuttle,
 /area/bridge{
 	dynamic_lighting = 0;
@@ -260,36 +288,19 @@
 	name = "Start";
 	requires_power = 0
 	})
-"K" = (
-/turf/closed/indestructible/syndicate,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"L" = (
-/obj/effect/turf_decal/loading_area{
+"P" = (
+/obj/structure/chair/sofa/right{
 	dir = 1
 	},
-/turf/open/indestructible,
+/turf/open/floor/bluespace,
 /area/bridge{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Start";
 	requires_power = 0
 	})
-"M" = (
-/obj/machinery/readybutton,
-/turf/closed/indestructible/opshuttle,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"N" = (
-/obj/structure/chair/sofa{
+"Q" = (
+/obj/structure/chair/sofa/corner{
 	dir = 8
 	},
 /turf/open/floor/bluespace,
@@ -299,18 +310,25 @@
 	name = "Start";
 	requires_power = 0
 	})
-"O" = (
-/obj/structure/fireaxecabinet/bridge/spare{
-	req_access = null
+"U" = (
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	invisibility = 101;
+	name = "flaps";
+	opacity = 1;
+	resistance_flags = 211
 	},
-/turf/closed/indestructible/opshuttle,
+/turf/open/floor/bluespace,
+/area/space)
+"V" = (
+/turf/open/floor/bluespace,
 /area/bridge{
 	dynamic_lighting = 0;
 	has_gravity = 1;
 	name = "Start";
 	requires_power = 0
 	})
-"P" = (
+"W" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8;
 	flags_1 = 131712;
@@ -340,45 +358,7 @@
 	name = "Start";
 	requires_power = 0
 	})
-"R" = (
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"T" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	layer = 3.95
-	},
-/obj/item/reagent_containers/food/drinks/bottle/champagne{
-	layer = 3.9;
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_x = -6
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
 "X" = (
-/obj/structure/chair/sofa/corner{
-	dir = 8
-	},
-/turf/open/floor/bluespace,
-/area/bridge{
-	dynamic_lighting = 0;
-	has_gravity = 1;
-	name = "Start";
-	requires_power = 0
-	})
-"Y" = (
 /obj/structure/fireaxecabinet,
 /turf/closed/indestructible/opshuttle,
 /area/bridge{
@@ -617,33 +597,33 @@ p
 p
 p
 p
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-K
-K
-K
-K
-K
-K
-K
-K
-K
-K
-K
-K
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
 "}
 (2,1,1) = {"
 p
@@ -874,7 +854,22 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
 r
 r
 r
@@ -885,22 +880,7 @@ r
 r
 r
 r
-r
-r
-r
-r
-t
-y
-y
-y
-y
-y
-y
-y
-y
-y
-y
-K
+g
 "}
 (3,1,1) = {"
 p
@@ -1131,33 +1111,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+v
+l
+F
+A
+A
+A
+v
+l
+F
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-L
-u
-D
-C
-C
-C
-L
-u
-D
-y
-K
+g
 "}
 (4,1,1) = {"
 p
@@ -1388,33 +1368,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+A
+A
+v
+l
+F
 r
 r
 r
 r
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-C
-C
-L
-u
-D
-y
-y
-y
-y
-y
-K
+g
 "}
 (5,1,1) = {"
 p
@@ -1645,33 +1625,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+v
+l
+F
+A
+v
+l
+F
 r
 r
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-L
-u
-D
-C
-L
-u
-D
-y
-y
-y
-K
+g
 "}
 (6,1,1) = {"
 p
@@ -1902,33 +1882,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+A
+A
+v
+l
+F
+A
+v
+l
+F
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-C
-C
-L
-u
-D
-C
-L
-u
-D
-y
-K
+g
 "}
 (7,1,1) = {"
 p
@@ -2159,33 +2139,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+v
+l
+F
+A
+v
+l
+F
 r
 r
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-L
-u
-D
-C
-L
-u
-D
-y
-y
-y
-K
+g
 "}
 (8,1,1) = {"
 p
@@ -2416,33 +2396,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+A
+A
+v
+l
+F
+A
+v
+l
+F
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-C
-C
-L
-u
-D
-C
-L
-u
-D
-y
-K
+g
 "}
 (9,1,1) = {"
 p
@@ -2673,33 +2653,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+v
+l
+F
+A
+v
+l
+F
 r
 r
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-L
-u
-D
-C
-L
-u
-D
-y
-y
-y
-K
+g
 "}
 (10,1,1) = {"
 p
@@ -2930,33 +2910,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+A
+A
+v
+l
+W
 r
 r
 r
 r
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-C
-C
-L
-u
-P
-y
-y
-y
-y
-y
-K
+g
 "}
 (11,1,1) = {"
 p
@@ -3187,33 +3167,33 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
+v
+l
+W
+A
+A
+A
+v
+l
+F
 r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-t
-L
-u
-P
-C
-C
-C
-L
-u
-D
-y
-K
+g
 "}
 (12,1,1) = {"
 p
@@ -3444,7 +3424,22 @@ p
 p
 p
 p
-j
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+a
 r
 r
 r
@@ -3455,22 +3450,7 @@ r
 r
 r
 r
-r
-r
-r
-r
-t
-y
-y
-y
-y
-y
-y
-y
-y
-y
-y
-K
+g
 "}
 (13,1,1) = {"
 p
@@ -3701,33 +3681,33 @@ p
 p
 p
 p
-j
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-K
-q
-q
-q
-q
-q
-q
-q
-q
-q
-q
-K
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+g
+z
+z
+z
+z
+z
+z
+z
+z
+z
+z
+g
 "}
 (14,1,1) = {"
 p
@@ -3958,33 +3938,33 @@ p
 p
 p
 p
-j
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+c
+G
+V
 M
-v
-R
-s
-T
-o
-l
-s
-E
-o
-R
-F
+q
+P
+D
+M
+N
+P
+V
+O
 "}
 (15,1,1) = {"
 p
@@ -4215,33 +4195,33 @@ p
 p
 p
 p
+I
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+k
+X
+V
+V
 j
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-r
-Y
-R
-R
-w
-N
-X
-R
-w
-N
-X
-R
-F
+t
+Q
+V
+j
+t
+Q
+V
+O
 "}
 (16,1,1) = {"
 p
@@ -4472,33 +4452,33 @@ p
 p
 p
 p
-j
-r
-r
-r
-r
-r
-j
-j
-j
-j
-j
-j
-j
-j
-F
+I
+k
+k
+k
+k
+k
+I
+I
+I
+I
+I
+I
+I
+I
 O
-R
-R
-R
-R
-R
-R
-R
-R
-R
-R
-F
+f
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+O
 "}
 (17,1,1) = {"
 p
@@ -4729,33 +4709,33 @@ p
 p
 p
 p
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-R
-R
-R
-R
-R
-R
-R
-R
-R
-R
-R
-R
-F
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+O
 "}
 (18,1,1) = {"
 p
@@ -4986,33 +4966,33 @@ p
 p
 p
 p
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-F
-F
-F
-F
-F
-F
-F
-F
-F
-F
-F
-F
-F
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
 "}
 (19,1,1) = {"
 p
@@ -5258,9 +5238,9 @@ p
 p
 p
 x
-k
+U
 b
-g
+s
 n
 m
 m
@@ -5772,7 +5752,7 @@ p
 p
 p
 x
-f
+a
 m
 m
 m
